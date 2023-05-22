@@ -1,4 +1,4 @@
-module donut_delivery
+module donutdelivery
 
 go 1.20
 
