@@ -8,7 +8,9 @@ Ideally used with your custom shellcode loader, you can make it arbitrarily load
 
 ```bash
 go install github.com/mariolima/donutdelivery@latest
-donutdelivery -path '/secretdonutpath'
+donutdelivery  -l '127.0.0.1:8087' -path '/secretdonutpath' -up 'urlsecretparam' -sp 'argssecretparam'
+
+curl http://127.0.0.1:8087/secretdonutpath?urlsecretparam=https://github.com/Flangvik/SharpCollection/raw/master/NetFramework_4.0_x64/Seatbelt.exe&argssecretparam=antivirus > loader.bin
 ```
 
 ## Help
