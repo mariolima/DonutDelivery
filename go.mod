@@ -1,4 +1,4 @@
-module donutdelivery
+module github.com/mariolima/donutdelivery
 
 go 1.20
 
